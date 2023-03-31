@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&family=League+Spartan&family=Rubik:wght@700&display=swap');
+$Krub-font:'Krub', sans-serif;
+$Rubik-font: 'Rubik', sans-serif;
+
+.containerEmpty{
+    background-image: url("../image/Lloyd.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    width:100%;
+    // background: linear-gradient(160deg, #091242 -11.11%, rgba(9, 18, 66, 0));
+   
+}
+
+.contentContainer{
+    background: #FFFFFF;
+    position: absolute;
+    width: 1000px;
+    height: 502px;
+    display: flex;
+    margin-top: -7rem;
+    padding:3rem 3rem;
+    align-items: center;
+    left:170px;
+}
+
+.containerText{
+    // top:20rem;
+    line-height: 25px;
+}
+
+ .contentContainer > .containerText >.WhyUs{
+    display: flex;
+    background: #F4F4F4;
+    width:90px;
+    line-height: 17px;
+    // margin-top: -7rem;
+
+    p{
+        font-family:$Rubik-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        align-items: center;
+        padding: 5px 15px;
+        color: #1C1F35;
+    }
+}
+
+.contentContainer  > .containerText > h2{
+    font-family: $Rubik-font;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #1C1F35;
+    padding-right: 4rem;
+   
+    
+}
+
+.contentContainer > .containerText > p{
+    font-family: $Krub-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160.52%;
+    color: #666C89;
+    margin-top: .5rem;
+    padding-right: 3rem;
+
+}
+
+.contentContainer > .containerText > .box , .cash{
+    display: flex;
+    margin-top: 1rem;
+    gap:1rem;
+
+    h4{
+        font-family:$Rubik-font ;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #1C1F35;
+        margin-top:1rem;
+        
+}
+}
+
+
+.contentContainer > img {
+    width:45%;
+}
+
+
+.keeper {
+    background:#FFFFFF;
+    position: absolute;
+    width:300px;
+     padding:1rem;
+    left: 640px;
+    margin-top: 10rem;
+    text-align: center;
+}
+.keeper > img{
+   width: 100%;
+}
+
+
+.rate{
+    position: absolute;
+    margin-top:30rem;
+    text-align: center;
+    left: 170px;
+   
+    
+   
+}
+.lineOne > hr{
+    width: 100%;
+}
+.innerBox{
+    display: flex;
+    padding:0px 10rem;
+    gap:5rem;
+}
+.Deliver  , .Satisfied{
+    display:flex;
+    margin-top:3rem;
+    gap:1rem;
+    h2{
+        font-family: $Rubik-font;
+       font-style: normal;
+       font-weight: 600;
+       font-size: 40px;
+      line-height: 59px;
+      color: #1C1F35;
+
+    }
+    svg{
+        margin-top: 1.4rem;
+    }
+    p{
+        margin-top: 1.4rem;
+        font-family: 'League Spartan';
+        font-style: normal;
+        font-weight: 400;
+        font-size:16px;
+        line-height: 18px;
+        color: #1C1F35;
+
+    }
+}

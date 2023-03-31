@@ -1,0 +1,248 @@
+// @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&family=Rubik:wght@700&display=swap');
+
+$Krub-font:'Krub', sans-serif;
+$Rubik-font: 'Rubik', sans-serif;
+
+
+.TranSections{
+    position: absolute;
+    margin-top:60rem;
+    width: 100%;
+    height: 42%;
+    background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);
+}
+.TransHeader > h2{
+    position: absolute;
+    left: 400.41px;
+    top: -270px;
+    font-family: $Rubik-font;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #1C1F35;
+}
+
+.TransportText{
+    display: flex;
+    margin:auto 3rem; 
+    gap:1rem;
+}
+
+
+.Liquid , .Contract , .Packaging , .Specialized , .Warehouse{
+    margin-top: -14rem;
+}
+
+.Liquid  > img{
+    // position: absolute;
+    background: linear-gradient(0deg, #091242 14.34%, rgba(60, 60, 60, 0) 43.86%);
+    background-blend-mode: multiply;
+    width:100%;
+  
+}
+.Liquid> h3 {
+    position :absolute;
+    line-height: 10rem;
+    font-family: $Rubik-font;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 17px;
+     line-height: 24px;
+     top:1rem;
+     color: #FFFFFF;
+     padding-left: 1rem;
+
+}
+
+
+.Liquid > p{
+    position: absolute;
+    top:2rem;
+    font-family:$Krub-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    color: #FFB629;
+    padding-left: 1rem;
+
+}
+
+
+// Packing
+.Packaging > img{
+    // position: absolute;
+    top:-10px;
+    background: linear-gradient(0deg, #091242 14.34%, rgba(60, 60, 60, 0) 43.86%);
+    background-blend-mode: multiply;
+    width:100%;
+  
+}
+.Packaging> h3 {
+     position :absolute;
+     line-height: 10rem;
+     font-family: $Rubik-font;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 19px;
+     line-height: 24px;
+     top:1rem;
+     color: #FFFFFF;
+     padding-left: 1rem;
+
+}
+
+
+.Packaging > p{
+     position: absolute;
+    top:2rem;
+    font-family:$Krub-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    color: #FFB629;
+    padding-left: 1rem;
+
+}
+
+// Contract
+.Contract  >  img{
+    // position: absolute;
+    top:-10px;
+    background: linear-gradient(0deg, #091242 14.34%, rgba(60, 60, 60, 0) 43.86%);
+    background-blend-mode: multiply;
+    width:100%;
+  
+}
+.Contract > h3 {
+     position :absolute;
+     line-height: 10rem;
+     font-family: $Rubik-font;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 24px;
+     top:1rem;
+     color: #FFFFFF;
+     padding-left: 1rem;
+  
+    
+
+}
+
+
+.Contract > p{
+    position: absolute;
+    top:2rem;
+    font-family:$Krub-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    color: #FFB629;
+    padding-left: 1rem;
+
+}
+
+
+
+// WareHouse
+.Warehouse  > img{
+    // position: absolute;
+    top:-10px;
+    background: linear-gradient(0deg, #091242 14.34%, rgba(60, 60, 60, 0) 43.86%);
+    background-blend-mode: multiply;
+    width:100%;
+  
+}
+.Warehouse > h3 {
+     position :absolute;
+    line-height: 10rem;
+    font-family: $Rubik-font;
+    font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     top:1rem;
+    color: #FFFFFF;
+    padding-left: 1rem;
+
+}
+
+
+.Warehouse > p{
+     position: absolute;
+    top:2rem;
+    font-family:$Krub-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 151.52%;
+    color: #FFB629;
+    padding-left: 1rem;
+
+}
+
+//Specialized 
+.Specialized  > img{
+    // position: absolute;
+    top:-10px;
+    background: linear-gradient(0deg, #091242 14.34%, rgba(60, 60, 60, 0) 43.86%);
+    background-blend-mode: multiply;
+    width:100%;
+  
+}
+.Specialized > h3 {
+     position :absolute;
+    line-height: 10rem;
+    font-family: $Rubik-font;
+    font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     top:1rem;
+    color: #FFFFFF;
+    padding-left: 1rem;
+
+}
+
+
+.Specialized > p{
+     position: absolute;
+    top:2rem;
+    font-family:$Krub-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 151.52%;
+    color: #FFB629;
+    padding-left: 1rem;
+
+}
+
+
+.TransBtn{
+    position: absolute;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    width: 216px;
+    margin-right:100px;
+    border: none;
+    color: #FFFFFF;
+    font-family: $Krub-font;
+    background-color: rgb(9, 18, 66);
+    text-align: center;
+    margin: 5rem 35.5rem;
+}
+.TransBtn > svg{
+    position: absolute;
+    margin:12px 38px;
+   transform: rotate(360.72deg);
+}

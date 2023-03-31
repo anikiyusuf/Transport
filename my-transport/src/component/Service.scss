@@ -1,0 +1,175 @@
+// @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&family=Rubik:wght@700&display=swap');
+
+$Krub-font:'Krub', sans-serif;
+$Rubik-font: 'Rubik', sans-serif;
+
+.SectionOne{
+     display: flex;
+     flex-direction: row;
+     justify-content:center;
+     align-items: flex-start;
+     gap: 40px;
+    //  position: absolute;
+     padding: 6rem 10rem;
+
+
+}
+
+.Wedo{
+    display: flex;
+    background: #F4F4F4;
+    width:130px;
+    font-family: $Rubik-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    p{
+        align-items: center;
+        padding: 5px 15px;
+        // position: absolute;
+    }
+}
+
+
+.safe > h3{
+    // position: absolute;
+    font-family: $Rubik-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #1C1F35;
+}
+
+
+
+
+.TransportSection{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    left:3rem;
+    
+}
+
+
+.Sea{
+    display: flex;
+    gap:15px;
+    margin-right: 23px;
+    
+}
+
+.SeaIcon{
+    display: flex;
+}
+
+.Sea > .SeaText > h4{
+    font-family:$Rubik-font;
+    // font-style: normal;
+    font-weight:400;
+    font-size: 20px;
+    line-height: 30px;
+     color: #1C1F35;
+}
+
+.Sea > .SeaText > p{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.5px;
+    line-height: 151.52%;
+    color: #666C89;
+}
+
+
+// Ware
+.ware{
+    display: flex; 
+    gap:15px;
+    margin-right: 23px;
+}
+.wareIcon{
+    display: flex;
+}
+
+.ware > .wareText > h4{
+    font-family: $Rubik-font;
+    // font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px; 
+    color: #1C1F35;
+}
+.ware > .wareText > p{
+    font-family: $Krub-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 151.52%;
+    color: #666C89;
+}
+
+
+// AIR
+.Air{
+    display: flex; 
+    gap:20px;
+    margin-right: 23px;
+}
+.AirIcon{
+    display: flex;
+
+}
+
+
+.Air > .AirText > h4{
+    font-family: $Rubik-font;
+    // font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1C1F35;
+}
+
+
+.Air > .AirText > p{
+    font-family: $Krub-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.5px;
+    line-height: 151.52%;
+    color: #666C89;
+}
+
+// Local
+.Local{
+    display: flex; 
+    gap:15px;
+    margin-right: 23px;
+}
+.localIcon{
+    display: flex;
+}
+
+   .Local > .LocalText > h4{
+    font-family: $Rubik-font;
+    // font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1C1F35;
+}
+
+
+.Local > .LocalText> p{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.5px;
+    line-height: 151.52%;
+    color: #666C89;
+} 

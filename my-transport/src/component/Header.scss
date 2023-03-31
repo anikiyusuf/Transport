@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&family=Rubik:wght@700&display=swap');
+
+$Rubik-font: 'Rubik', sans-serif;
+
+.Header{
+    background: #091242;
+    height:140px;
+ 
+}
+.HeaderLayout{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  left: 90px;
+  top: 40px;
+  padding:2px 4rem;
+}
+.logo{
+    margin-right: 9rem;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+.logo{
+    font-family: $Rubik-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+}

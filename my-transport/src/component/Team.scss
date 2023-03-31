@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&family=League+Spartan&family=Rubik:wght@700&display=swap');
+$Krub-font:'Krub', sans-serif;
+$Rubik-font: 'Rubik', sans-serif;
+
+
+
+.FeaturesSection{
+    margin-top: 155rem;
+    
+}
+.FeatureTitle{
+    text-align: center;
+    align-items: center;
+    margin: 2rem auto;
+}
+  .FeatureHeaderTitle{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: auto;
+    width:90px;
+    // left: 0px;
+    top: 2px;
+    width:170px;
+     line-height: 20px;
+    background: rgba(232, 232, 232, 0.5);
+
+   p {
+        
+         align-items: center;
+        padding: 10px 15px;
+     
+        font-family: 'Rubik';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+      line-height: 17px;
+/* identical to box height */
+// text-align: center;
+color: #1C1F35;
+    }
+}
+.FeatureTitle > h3{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 41px;
+text-align: center;
+color: #1C1F35; 
+}
+
+.FeatureProfile{
+    display:flex;
+    gap:3rem;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.JesscaArow > img{
+    width:100%;
+}
+.JesscaName{
+    position: absolute;
+    width: 364px;
+    padding:1.3rem;
+    background: #1C1F35;
+    text-align: left;
+    margin-top: -5rem;
+}
+
+.JesscaName > h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+/* identical to box height */
+     color: #FFFFFF;
+
+}
+
+.JesscaName   > p{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+/* or 24px */
+    color: #FFFFFF;
+}
+
+.JesscaIcon{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 17.0611px 20.0719px;
+    gap: 10.04px;
+    position: absolute;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    margin-top: -8rem;
+    margin-left: 14.7rem;
+}
+
+
+// Smith
+
+
+.Smith > img{
+    width:100%;
+}
+.SmithName{
+    position: absolute;
+    width: 364px;
+    padding:1.3rem;
+    background: #1C1F35;
+    text-align: left;
+    margin-top: -5rem;
+}
+
+.SmithName > h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+/* identical to box height */
+     color: #FFFFFF;
+
+}
+
+.SmithName  > p{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+/* or 24px */
+    color: #FFFFFF;
+}
+
+.SmithIcon{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 17.0611px 20.0719px;
+    gap: 10.04px;
+    position: absolute;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    margin-top: -8rem;
+    margin-left: 12.6rem;
+}
+
+
+// Tylor
+
+
+.Tylor > img{
+    width:100%;
+}
+.TylorName{
+    position: absolute;
+    width: 364px;
+    padding:1.3rem;
+    background: #1C1F35;
+    text-align: left;
+    margin-top: -5rem;
+}
+
+.TylorName > h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+/* identical to box height */
+     color: #FFFFFF;
+
+}
+
+.TylorName  > p{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+/* or 24px */
+    color: #FFFFFF;
+}
+
+.TylorIcon{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 17.0611px 20.0719px;
+    gap: 10.04px;
+    position: absolute;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    margin-top: -8rem;
+    margin-left: 16.7rem;
+}

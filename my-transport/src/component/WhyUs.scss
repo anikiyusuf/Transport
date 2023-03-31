@@ -1,0 +1,215 @@
+// @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&family=Rubik:wght@700&display=swap');
+
+$Krub-font:'Krub', sans-serif;
+$Rubik-font: 'Rubik', sans-serif;
+
+
+.WhyChooseUs{ 
+    margin-top:120rem;
+   display: flex;
+   position: absolute;
+}
+
+.planeContentLayout{
+    width:45%;
+    height: 500px;
+    background: #091242;
+    align-items: center;
+   
+    
+
+}
+.planeContent{
+  padding:5rem 0px 3rem 8rem ;
+  text-align: center;
+  align-items: center;
+
+ 
+}
+ .planeContent> img{
+    width:40%;
+    margin-left: -15rem;
+    position: absolute;
+  
+}
+
+.ContentTag{
+    position: absolute;
+     width: 270px;
+    display: flex;
+    align-items: center;
+    gap:.5rem;
+    padding: .3rem;
+   background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+   top:21.5rem;
+   left: 17rem;
+}
+.ContentTag > p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+     font-size: 15px;
+    line-height: 20px;
+    color: #1C1F35;
+    text-align: left;
+
+}
+
+
+
+
+.WhyChooseUsText{
+     width:55%;
+    //  height: 500px;
+     background: #F4F4F4;
+    //  align-items: center;
+    //  left: 50.91%;
+    //  right: -0.83%;
+    padding-left:6rem;
+
+   
+  
+}
+
+.WhyChooseUsTitle{
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+     padding: 3px 9px;
+     gap: 10px;
+    margin-top: 1rem;
+width:130px;
+
+background: rgba(232, 232, 232, 0.5);
+  h4{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+/* identical to box height */
+       color: #1C1F35;
+    }
+}
+
+.WhyChooseUsText > h3{
+    font-family: $Rubik-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    padding-right:8rem;
+    color: #1C1F35;
+}
+
+.WhyChooseUsText > p{
+    font-family: $Krub-font;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+padding-right: 16rem;
+/* or 24px */
+color: #666C89;
+}
+
+.WhyChooseUsGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+    gap:1rem;
+      
+}
+
+.SafePackage{
+    display: flex;
+    gap:1rem;
+    p{
+        font-family: $Rubik-font;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+margin-top: 1rem;
+line-height: 24px;
+/* identical to box height */
+color: #1C1F35;
+}
+}
+
+.ShipEvery{
+    display: flex;
+    gap:1rem;
+    p{
+        font-family: $Rubik-font;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+margin-top: 1rem;
+line-height: 24px;
+/* identical to box height */
+color: #1C1F35;
+}
+}
+
+.Support{
+    display:flex;
+    gap:1rem;
+    p{
+       font-family: 'Rubik';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 18px;
+       margin-top: 1rem;
+       line-height: 24px;
+/* identical to box height */
+    color: #1C1F35;
+}
+}
+
+.Global{
+    display: flex;
+    gap:1rem;
+    p{
+        font-family: $Rubik-font;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+margin-top: 1rem;
+line-height: 24px;
+/* identical to box height */
+color: #1C1F35;
+}
+}
+
+.Pricing{
+    display: flex;
+    gap:1rem;
+    p{
+        font-family:$Rubik-font;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+color: #1C1F35;
+}
+}
+.Timer{
+    display: flex;
+    gap:1rem;
+    
+    p{
+        font-family: $Rubik-font;
+      font-style: normal;
+     font-weight: 400;
+
+     font-size: 18px;
+     margin-top: 1rem;
+line-height: 24px;
+/* identical to box height */
+color: #1C1F35;
+
+}
+}

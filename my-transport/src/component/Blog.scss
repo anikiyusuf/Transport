@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&family=League+Spartan&family=Rubik:wght@700&display=swap');
+$Krub-font:'Krub', sans-serif;
+$Rubik-font: 'Rubik', sans-serif;
+
+
+.BlogSection{
+   text-align: center; 
+   margin-top: 3rem;
+//    position: absolute;
+ 
+}
+
+.blogHeader{
+    display: flex;
+    flex-direction: row;
+  
+    padding: 4px 10px;
+    gap: 10px;
+    width:100px;
+    background: rgba(232, 232, 232, 0.5);
+    align-items: center;
+    line-height: 20px;
+     margin-left: 40rem;
+
+    p{
+        align-items: center;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1C1F35;
+
+    }
+}
+
+.BlogTitle > h2{
+    font-family: $Rubik-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #1C1F35;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.underline{
+    width:65%;
+    text-align: center;
+    align-items:center;
+     margin-left:10rem;
+}
+.Calender{
+margin-top:-4rem
+}
+.Eight{
+    display: flex;
+    padding:5rem;
+    gap: 14px;
+    margin-left:80px;
+   .calenderEight > h2{
+    font-family:$Rubik-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #1C1F35;
+   }
+   .calenderEight > p{
+    font-family: 'Krub';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 151.52%;
+/* or 24px */
+ text-align: center;
+  color: #666C89;
+
+   }
+   
+    .EightText{
+     align-items: center;
+     text-align: left;
+       
+    h3{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #1C1F35;
+       padding-right: 10rem;
+       margin-bottom: 1rem;
+
+    }
+    p{
+        font-family: 'Krub';
+        font-style: normal;
+        font-weight: 500;
+       font-size: 16px;
+        line-height: 151.52%;
+/* or 24px */
+      color: #666C89;
+      padding-right: 12rem;
+    }
+    }
+
+    ul {
+       
+          display: flex;
+          flex-direction: column;
+         list-style: none;
+         margin-top: 1rem;
+         margin-left: 1.4rem;
+    }
+    li{
+        
+        font-family:$Krub-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100.52%;
+        color: #1C1F35;
+        list-style-type: disc;
+
+}
+
+}
+
+
+
+
+.Twelve{
+    display: flex;
+    padding:5rem;
+    gap: 14px;
+    margin-left:80px;
+    margin-top: -3rem;
+    .read{
+        position: absolute;
+        padding: 6rem;
+        color: #FFFFFF;
+        background: rgba(28, 31, 53, 0.91);
+        font-family: 'Krub';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 135.02%;
+        color: #FFFFFF;
+        margin:2rem 5rem;
+    }
+    .calenderTwelve > h2{
+        font-family:$Rubik-font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        color: #1C1F35;
+       }
+       .calenderTwelve > p{
+        font-family: 'Krub';
+         font-style: normal;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 151.52%;
+    /* or 24px */
+     text-align: center;
+      color: #666C89;
+    
+       }
+       .TwelveText{
+        align-items: center;
+        text-align: left;
+          
+       h3{
+           font-family: 'Rubik';
+           font-style: normal;
+           font-weight: 400;
+           font-size: 25px;
+           line-height: 30px;
+           color: #FFBE34;
+          padding-right: 10rem;
+          margin-bottom: 1rem;
+   
+       }
+       p{
+           font-family: 'Krub';
+           font-style: normal;
+           font-weight: 500;
+          font-size: 16px;
+           line-height: 151.52%;
+   /* or 24px */
+         color: #666C89;
+         padding-right: 12rem;
+       }
+       }
+   
+       ul {
+       
+        display: flex;
+        flex-direction: column;
+       list-style: none;
+       margin-top: 1rem;
+       margin-left: 1.4rem;
+  }
+  li{
+      
+      font-family:$Krub-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 100.52%;
+      color: #1C1F35;
+      list-style-type: disc;
+
+}  
+    
+}
+
+
+
+
+
+.twentyFive{
+    display: flex;
+    padding:5rem;
+    gap: 14px;
+    margin-left:80px;
+    margin-top: -3rem;
+    .calenderTwentyFive > h2{
+        font-family:$Rubik-font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        color: #1C1F35;
+       }
+       .calenderTwentyFive > p{
+        font-family: 'Krub';
+         font-style: normal;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 151.52%;
+    /* or 24px */
+     text-align: center;
+      color: #666C89;
+    
+       }
+       .TwentyFiveText{
+        align-items: center;
+        text-align: left;
+          
+       h3{
+           font-family: 'Rubik';
+           font-style: normal;
+           font-weight: 400;
+           font-size: 25px;
+           line-height: 30px;
+           color: #1C1F35;
+          padding-right: 10rem;
+          margin-bottom: 1rem;
+   
+       }
+       p{
+           font-family: 'Krub';
+           font-style: normal;
+           font-weight: 500;
+          font-size: 16px;
+           line-height: 151.52%;
+   /* or 24px */
+         color: #666C89;
+         padding-right: 12rem;
+       }
+       }
+   
+       ul {
+       
+        display: flex;
+        flex-direction: column;
+       list-style: none;
+       margin-top: 1rem;
+       margin-left: 1.4rem;
+  }
+  li{
+      
+      font-family:$Krub-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 100.52%;
+      color: #1C1F35;
+      list-style-type: disc;
+    
+
+}  
+
+}
+
+
+
+.BlogBtn{
+    // position: absolute;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    width: 216px;
+    // margin-right:100px;
+    border: none;
+    color: #FFFFFF;
+    font-family: $Krub-font;
+    background-color: rgb(9, 18, 66);
+    text-align: center;
+   margin-bottom: 3rem;
+}
+.BlogBtn > svg{
+    position: absolute;
+    margin:12px 40px;
+   transform: rotate(360.72deg);
+}

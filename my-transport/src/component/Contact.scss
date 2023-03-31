@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500;600&family=League+Spartan&family=Rubik:wght@700&display=swap');
+$Krub-font:'Krub', sans-serif;
+$Rubik-font: 'Rubik', sans-serif;
+
+.ContactSection{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding:30px 30px;
+gap: 10px;
+// position: absolute;
+background: #091242;
+margin-top: 10rem;
+
+}
+
+
+.ContactBoxSection{
+    display: flex;
+    //   width:1000px;
+      padding:3rem 4rem;
+      gap:1rem;
+}
+
+.ContactText{
+    line-height: 3rem;
+    gap:2rem;
+}
+.ContactText > .ContactHeaderTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 9px;
+    gap:20px;
+    width: 120px;
+    line-height: 20px;
+    background: rgba(232, 232, 232, 0.1);
+
+    h3{
+        font-family:$Rubik-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+/* identical to box height */
+         color: #FFFFFF;
+          align-items: center;
+        }
+}
+
+.ContactText > h3{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 41px;
+color: #FFFFFF;
+}
+
+.ContactText > p{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    color: #FFFFFF;
+}
+
+
+
+
+.ContactImages{
+    display: flex;
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ 
+}
+
+input {
+    box-sizing: border-box;
+    width: 355px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #4E5683;
+    background: transparent;
+    color: #FFFFFF;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+::placeholder{
+   font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding:1rem;
+
+}
+
+textarea{
+    box-sizing: border-box;
+    width:700px;
+    left: 0px;
+    top: 0px;
+    padding:3rem;
+    border: 1px solid #4E5683;
+    background: transparent;
+    margin-top: 3rem;
+
+    ::placeholder{
+        font-family: 'League Spartan';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFFFFF;
+        
+
+    }
+
+}
+.formBtn{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 19px 34px;
+   gap: 10px;
+   width: 194px;
+   height: 60px;
+   border: none;
+   background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+   font-family: 'Krub';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 135.02%;
+   /* identical to box height, or 22px */
+   color: #23212A;
+   margin-top: 2rem;
+}
+
+.Studio{
+    background-image: url("../image/ShipContainer.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 260px;
+    height: 234px;
+
+    svg{
+       text-align: center;
+       margin: 5rem auto;
+    }
+}
+
+.North{
+    background-image: url("../image/Mountain.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width:260px;
+    height: 234px;
+    background-blend-mode: lighten;
+ 
+  
+    
+    svg{
+        text-align: center;
+        margin: 5rem auto;
+     }
+}
+.Point{
+    background-image: url("../image/DarkPlane.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 260px;
+    height: 234px;
+    svg{
+        text-align: center;
+        margin: 5rem auto;
+     }
+}
+
+.SandBox{
+    background-image: url("../image/PhotoMount.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     text-align: center;
+    width: 260px;
+    height: 234px;
+   svg{
+    text-align: center;
+    margin: 5rem auto;
+
+ }
+}
